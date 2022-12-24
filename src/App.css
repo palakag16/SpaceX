@@ -1,0 +1,71 @@
+
+.Eventcard_wrap{
+  background-color: brown;
+  border-radius: 10px;
+  width:90%;
+  padding:20px;
+
+}
+.EC_title{
+  color: wheat;
+  font-size: 20px;
+  font-weight: 500;
+}
+.EC_des{
+  color: wheat;
+  font-size: 12px;
+  font-weight: 400;
+}
+.searchbox{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  width: 25%;
+  border:0.5px solid  grey;
+  border-radius: 4px;
+  float: right;
+}
+.searchbox input{
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.page_wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option{
+  font-size: 26px;
+  height: 45px;
+  width: 45px;
+  display: grid;
+  place-items: center;
+  background-color: brown;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+.card_grid_style{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+ grid-gap: 10px;
+ grid-column-gap: 2%;
+ justify-content: center;
+ margin: 2rem 0;
+}
+.toggletab{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tabstyle{
+  font-size: 24px;
+  margin: 10px;
+  color:brown;
+  background-color: white;
+  cursor: pointer;
+}
